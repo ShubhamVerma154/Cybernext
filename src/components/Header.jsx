@@ -1,6 +1,6 @@
 import { useState, useRef, useLayoutEffect, useEffect } from "react";
 import gsap from "gsap";
-import Sidelogo from "../assets/images/Sidelogo.png";
+import Sidelogo from "../assets/images/SideLogo.png";
 import "../assets/css/header.scss";
 
 function Header() {
