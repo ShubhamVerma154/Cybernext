@@ -1,0 +1,98 @@
+@use "./variables.scss" as *;
+@use "./fonts";
+.main-Banner {
+  min-height: 290dvh;
+  .MainBg {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 100%;
+  }
+  .Banner-frst {
+    min-height: 100dvh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    left: 0;
+    h1 {
+      font-family: "OrticaLinear", sans-serif;
+      color: $white;
+      font-weight: 300;
+      font-size: 12vw;
+      letter-spacing: 6.5px;
+    }
+    h4 {
+      color: $secondry;
+      font-weight: 300;
+      font-size: 2vw;
+      letter-spacing: 1.5px;
+      text-align: center;
+    }
+  }
+  .imgBanner {
+    position: absolute;
+    top: 0;
+    min-height: 100dvh;
+    width: 100%;
+    z-index: -1;
+    .Banner0 {
+      right: 50px;
+      top: 0px;
+    }
+    .Banner1 {
+      bottom: 0;
+      right: 0;
+    }
+    .Banner2 {
+      top: 150px;
+      left: 0;
+    }
+    .Imagecontainer {
+      max-width: 300px;
+      height: auto;
+      position: absolute;
+      transition: all 0.1s linear;
+      img {
+        object-fit: cover;
+        height: 100%;
+        width: 100%;
+      }
+    }
+  }
+  .Banner-third {
+    top: calc(100dvh + 80px);
+    .Banner0 {
+      left: 50px;
+      top: 0px;
+      right: unset;
+    }
+    .Banner1 {
+      top: 150px;
+      bottom: unset;
+      right: 150px;
+    }
+    .Banner2 {
+      top: unset;
+      bottom: 0;
+      right: 50px;
+    }
+  }
+  .Below-line{
+    position: absolute;
+    top: 265dvh;
+    left: 0;
+    width: 100%;
+    text-align: center;
+        display: flex;
+    justify-content: center;
+    .mainline{
+        min-height: 30dvh;
+        height: 100%;
+        width: 2px;
+        background-color: $secondry;
+    }
+  }
+}

@@ -1,0 +1,69 @@
+@use "./variables.scss" as *;
+@use "./fonts";
+@use "./main.scss";
+
+.Reviewsection {
+  padding-top: 70px;
+  padding-bottom: 50px;
+  .review-slide {
+    max-width: calc(100% - 120px);
+    margin: 0 auto;
+    .content {
+      h3 {
+        color: $lightWhite;
+        font-weight: 300;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 20px;
+      }
+    }
+  }
+  .swiper-button-prev,
+  .swiper-button-next {
+    color: #d7ab80;
+    width: 40px;
+    height: 40px;
+  }
+
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 18px;
+  }
+  .swiper-slide {
+    img {
+      width: 100%;
+      height: 500px;
+      object-fit: cover;
+    }
+  }
+  .reviewSvg {
+    position: relative;
+    width: fit-content;
+    .revieImg {
+      max-width: 200px;
+      aspect-ratio: 1;
+      object-fit: contain;
+    }
+    .knife {
+      position: absolute;
+      top: 0;
+      max-width: 90px;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      margin: auto;
+    }
+  }
+  h2 {
+    color: $white;
+    font-family: "OrticaLinear";
+    font-weight: 500;
+    font-size: 90px;
+    margin: 50px auto 50px auto;
+    max-width: 700px;
+    text-align: center;
+    line-height: 1;
+  }
+}

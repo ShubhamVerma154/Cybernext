@@ -1,0 +1,13 @@
+@use "./variables.scss" as *;
+@use "./fonts";
+
+.centreline {
+  display: flex;
+  justify-content: center;
+
+  .mainLine {
+    width: 1px;
+    height: 80px;
+    background-color: $secondry;
+  }
+}

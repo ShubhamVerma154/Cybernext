@@ -1,0 +1,19 @@
+@use "./variables.scss" as *;
+
+.scroll-indicator {
+  position: fixed;
+  bottom: 50px;
+  right: 50px;
+  z-index: 999;
+  pointer-events: none;
+  img{
+    position: absolute;
+    max-width: 40px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: translate(-2px,-2px) rotate(90deg);
+  }
+}

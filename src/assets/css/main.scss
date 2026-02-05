@@ -1,0 +1,20 @@
+@use "./variables.scss" as *;
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: $primary;
+}
+.containerMain{
+  max-width: 1800px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+.pointer{
+    cursor: pointer;
+}

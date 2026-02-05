@@ -1,0 +1,26 @@
+@use "./variables.scss" as *;
+@use "./fonts";
+
+.ImageWithText {
+    .mainBox{
+        display: flex;
+        gap: 50px;
+        padding-top: 100px;
+        align-items: center;
+        .leftContent{
+             font-family: "OrticaLinear", sans-serif;
+             color: $white;
+             font-size: 35px;
+            padding-left: 150px;
+        }
+        .rightContent{
+            max-width: 500px;
+            aspect-ratio: 1;
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+}

@@ -1,0 +1,28 @@
+<svg
+  width="100"
+  height="100"
+  viewBox="0 0 100 100"
+  xmlns="http://www.w3.org/2000/svg"
+>
+  <path
+    id="circlePath"
+    d="
+      M 50,50
+      m -35,0
+      a 35,35 0 1,1 70,0
+      a 35,35 0 1,1 -70,0
+    "
+    fill="none"
+  />
+
+  <text
+    fontFamily="Montserrat, sans-serif"
+    fontSize="12"
+    fill="#d7ab80"
+    letterSpacing="0.37em"
+  >
+    <textPath href="#circlePath" startOffset="50%" textAnchor="middle">
+      GOURMET • REVIEW • AWARD •
+    </textPath>
+  </text>
+</svg>
