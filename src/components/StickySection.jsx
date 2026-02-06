@@ -1,5 +1,6 @@
 import "../assets/css/imagewithtext.scss";
 import "../assets/css/sticky.scss";
+import Food from "../assets/images/food.webp";
 
 
 function Sticky() {
@@ -10,35 +11,35 @@ function Sticky() {
             <article className="rightContent">
                 <div className="rtImg">
             <img
-              src="/src/assets/images/food.webp"
+              src={Food}
               alt="Food"
             />
             <h4>Chicken Tikka</h4>
             </div>
              <div className="rtImg">
             <img
-              src="/src/assets/images/food.webp"
+             src={Food}
               alt="Food"
             />
             <h4>Chicken Tikka</h4>
             </div>
               <div className="rtImg">
             <img
-              src="/src/assets/images/food.webp"
+             src={Food}
               alt="Food"
             />
             <h4>Chicken Tikka</h4>
             </div>
               <div className="rtImg">
             <img
-              src="/src/assets/images/food.webp"
+              src={Food}
               alt="Food"
             />
             <h4>Chicken Tikka</h4>
             </div>
               <div className="rtImg">
             <img
-              src="/src/assets/images/food.webp"
+              src={Food}
               alt="Food"
             />
             <h4>Chicken Tikka</h4>
