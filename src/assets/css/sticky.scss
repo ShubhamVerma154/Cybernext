@@ -1,0 +1,24 @@
+@use "./variables.scss" as *;
+.Sticky{
+    .mainBox{
+        align-items:flex-start;
+        .leftContent{
+            margin-top: 80px;
+            position: sticky;
+            top: 100px;
+        }
+        .rightContent{
+            .rtImg{
+                margin-bottom: 30px;
+                h4{
+                        color: $lightWhite;
+                        font-weight: 300;
+                        text-transform: uppercase;
+                         letter-spacing: 1px;
+        font-family: "Montserrat", sans-serif;
+        font-size: 15px;
+                }
+            }
+        }
+    }
+}

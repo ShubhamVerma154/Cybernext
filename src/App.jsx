@@ -6,6 +6,7 @@ import Imagewithtext from "./components/ImageWithText";
 import About from "./components/About";
 import ScrollTop from "./components/ScrollTop";
 import Reviews from "./components/Reviews";
+import Sticky from "./components/StickySection";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <About />
       <Imagewithtext />
       <Reviews />
+      <Sticky />
     </>
   );
 }
